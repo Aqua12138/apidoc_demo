@@ -2,4 +2,6 @@ python:
   # Install our python package before building the docs
   install:
     - method: pip
-      path: django
+      path: .
+      extra_requirements:
+        - django      
