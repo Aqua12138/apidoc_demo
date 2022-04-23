@@ -1,0 +1,2 @@
+# When updating these, you may need to also update pyproject.toml
+django
