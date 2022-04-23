@@ -27,4 +27,6 @@ sphinx:
 python:
    install:
     - method: pip
-      path: django
+      path: .
+      extra_requirements:
+        - django
